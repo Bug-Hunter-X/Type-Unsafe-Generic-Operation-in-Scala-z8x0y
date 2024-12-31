@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Scala involving type-unsafe operations on generic types. The `bug.scala` file contains code that attempts to add two values of a generic type T without checking if the + operation is defined for that type. The `bugSolution.scala` file provides a corrected version using type constraints to ensure type safety.
